@@ -11,6 +11,8 @@
   --grey-color: #888;
   --main-transition: 0.3s;
   --rajdhani: "Rajdhani", sans-serif;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
 }
 
 * {
@@ -71,6 +73,28 @@ a {
 ::selection {
   background-color: var(--main-color);
   color: white;
+}
+
+.main-title {
+  text-align: center;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-family: var(--rajdhani);
+  font-size: 45px;
+  margin: 0 auto 80px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  position: relative;
+}
+.main-title::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: var(--main-color);
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header {
@@ -211,4 +235,147 @@ header {
   left: 0;
   background-color: black;
   opacity: 0.55;
+}
+
+.storage-type {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+
+  .container {
+    .storages-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 40px;
+
+      .storage {
+        box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+        background-color: white;
+        border-radius: 6px;
+        overflow: hidden;
+        transition: transform var(--main-transition),
+          box-shadow var(--main-transition);
+
+        img {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .text {
+          margin: 0 20px;
+
+          h3 {
+            margin: 1em 0;
+            color: var(--secondary-color);
+          }
+          p {
+            line-height: 1.5;
+            color: #777;
+            margin: 0.8em 0;
+          }
+        }
+      }
+      .storage:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 2px 15px rgb(0 0 0 / 25%);
+      }
+    }
+  }
+}
+
+.features {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+
+  background-image: url(../resources/imgs/openUnit.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+
+  counter-reset: features;
+
+  background: #ececec;
+
+  .container {
+    .features-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 40px;
+
+      .feature {
+        background-color: white;
+        box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+        counter-increment: features;
+        position: relative;
+        transition: var(--main-transition);
+
+        i {
+          text-align: center;
+          display: block;
+          margin: 30px auto 20px;
+          color: var(--main-color);
+          font-size: 4em;
+        }
+        h3 {
+          text-align: center;
+          color: var(--secondary-color);
+          font-size: 25px;
+          margin: 20px 0 40px;
+        }
+        .info {
+          padding: 20px;
+          position: relative;
+          background-color: #f6f6f6;
+          text-align: right;
+
+          a {
+            color: var(--secondary-color);
+          }
+        }
+        .info::before {
+          content: "0" counter(features);
+          position: absolute;
+          background-color: var(--main-color);
+          color: white;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 80px;
+          font-size: 30px;
+          font-weight: bold;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-right: 15px;
+        }
+        .info::after {
+          content: "";
+          position: absolute;
+          background-color: #d5d5d5;
+          height: calc(100% + 0.4px);
+          /* height: 100%; */
+          width: 50px;
+          top: 0;
+          left: 78px;
+          transform: skewX(-30deg);
+        }
+      }
+      .feature:hover {
+        transform: translateY(-10px);
+      }
+      .feature::before {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 3px;
+        width: 0;
+        background-color: var(--main-color);
+        transition: var(--main-transition);
+      }
+      .feature:hover::before {
+        width: 100%;
+      }
+    }
+  }
 }
