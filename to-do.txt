@@ -1,0 +1,67 @@
+Now STORAGE ZONE  facility in IRBID and AMMAN is available at "Economical price"
+
+STORAGE ZONE provides Catering exclusive storage solutions ranging from Household items storage to Records storage management.
+
+We are a one stop destination for all your storage needs. If you are traveling, renovating your house, running out of space or looking for storage space on rental for your households and automobiles, STORAGE ZONE is the right place with wide range of storage solutions. Our storage facilities include Personal storage, Household goods storage, Automobile storage, Business storage, file storage and Document Storage Facility and space to store your car or vintage vehicle. You will find warehouse for rent in IRBID and AMMAN at genuine price.
+
+==========================================================
+STORAGE ZONE and safe storage environment
+
+Our warehouses are well equipped with state of the art facilities like smoke detectors, 24X7 dedicated security and CCTV monitoring, biometric security system and pest safe premises. We store your belongings with all necessary care using wooden pallets, bubble sheet packing and carton boxes.
+
+If you are looking for a warehouse facility for rent Short-term storage , temporary storage or long-term storage from as little as one month to ten years, our company provides best and affordable storage facilities that are designed to offer economical and easily accessible.
+=========================================================
+Storage Services, Facilities & Solutions 
+
+Home storage is a commonly asked facility because here, people need to shift their residential locations along with their jobs. Therefore, Safe Storage ensures that the domestic items stored in their Household Items Storage unit are safe and remain as it is till the owner comes down to collect them.
+=========================================================
+=========================================================
+Pickup from Door Step
+
+STORAGE ZONE team visits customer place with highly skilled packers along transport vehicle. We pack all household items and pickup from door step with no hassle.
+=========================================================
+customer support
+
+Our dedicated customer support team will always be by customer side to assist and support what they need. we serve them with greatest delight and professionalism. At SORAGE ZONE , our customers are first and We always respect our relationship with our customers.
+=========================================================
+=========================================================
+Delete point 6 in Why chose us
+=========================================================
+=========================================================
+quote page
+
+delete lorem ipsum
+=========================================================
+Edit 'request a discount' to 'get your quote'.
+=========================================================
+=========================================================
+Create storage options link and three pages:  (like easy storage)
+1. personal storage
+2. busniess storage
+3. ???
+=========================================================
+=========================================================
+Create Whatsapp button in all pages
+=========================================================
+=========================================================
+Create scroll to top button in all pages
+=========================================================
+=========================================================
+make find storage link a drop down menu (how to do it with js? google it)
+=========================================================
+=========================================================
+add header and footer to all pages
+=========================================================
+=========================================================
+Create a contact us page like this one (https://www.publicstorage.com/contact-us/contact-us.html)
+=========================================================
+=========================================================
+Create sizes page like this one (https://www.compassselfstorage.com/unit-size-guide/)
+=========================================================
+=========================================================
+Edit links form 1 - 6 in footer page, add links in the header
+=========================================================
+=========================================================
+fix media query in all pages
+=========================================================
+=========================================================
