@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/framwork.css" />
     <link rel="stylesheet" href="css/all.min.css" />
+    <!-- form style -->
+    <link rel="stylesheet" href="css/form-style.css" />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,6 +28,29 @@
     />
   </head>
   <body>
+    <!-- header -->
+    <header id="header">
+      <div class="container">
+        <a href="index.html" class="logo"> Storage <span>Zone</span> </a>
+        <ul class="main-nav">
+          <li>
+            <a href="#storage">Find Storage</a>
+            <div class="storage-menu">
+              <ul class="links">
+                <li><a href="personal-storage.html">Personal Storage</a></li>
+                <li><a href="#business-storage.html">Business Storage</a></li>
+                <li><a href="#on-demand-storage.html">On Demand Storage</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <a href="tel:+962797353436" class="phone-num">+962-797-353-436</a>
+      </div>
+    </header>
+    <!-- quote page -->
     <div class="quote-page" id="quote-page">
       <div class="image">
         <div class="content">
@@ -35,59 +60,112 @@
         </div>
       </div>
       <div class="form">
-        <div class="content">
-          <h2>Get your Discount</h2>
-          <form action="main.php" method="post">
-            <label for="name">Name <span>*</span></label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your full Name"
-              size="40"
-              class="input"
-              aria-required="true"
-            />
-            <label for="email">Email address <span>*</span></label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="input"
-              size="40"
-              aria-required="true"
-              placeholder="Enter email addres"
-            />
-            <label for="tel">Phone number <span>*</span></label>
-            <input
-              type="tel"
-              name="tel"
-              id="tel"
-              class="input"
-              size="40"
-              placeholder="Enter phone number"
-              aria-required="true"
-            />
-            <label for="date">Date needed</label>
-            <input
-              type="date"
-              name="date"
-              id="date"
-              class="input"
-              placeholder="mm/dd/yyyy"
-              aria-required="true"
-            />
-            <label for="message">More details </label>
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Tell us about your needs"
-              class="input"
-            ></textarea>
-            <input type="submit" value="Send" />
-          </form>
+        <div class="container-f">
+          <div class="title">Get your Quote</div>
+          <div class="content">
+            <form action="#">
+              <div class="user-details">
+                <div class="input-box">
+                  <span class="details">Full Name</span>
+                  <input type="text" placeholder="Enter your name" required />
+                </div>
+
+                <div class="input-box">
+                  <span class="details">Email</span>
+                  <input type="text" placeholder="Enter your email" required />
+                </div>
+                <div class="input-box">
+                  <span class="details">Phone Number</span>
+                  <input type="text" placeholder="Enter your number" required />
+                </div>
+                <div class="input-box">
+                  <span class="details">When</span>
+                  <input type="date" name="date" id="date" required />
+                </div>
+                <textarea
+                  name="more-details"
+                  id="more-details"
+                  placeholder="Tell us about your needs"
+                ></textarea>
+              </div>
+              <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1" />
+                <input type="radio" name="gender" id="dot-2" />
+
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                  <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Male</span>
+                  </label>
+                  <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Female</span>
+                  </label>
+                </div>
+              </div>
+              <div class="button">
+                <input type="submit" value="Register" />
+              </div>
+            </form>
+          </div>
         </div>
       </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="box zone-box">
+          <h3>Storage Zone</h3>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+            veritatis similique harum
+          </p>
+        </div>
+        <div class="box links-box">
+          <ul>
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+            <li><a href="#">link 5</a></li>
+          </ul>
+        </div>
+        <div class="box info-box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">
+              Amman, Jordan, Seven Circle, Building number 9
+            </div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info">Business Hours: From 10:00 To 18:00</div>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span>+962777777777</span>
+              <span>+962789789789</span>
+            </div>
+          </div>
+        </div>
+        <div class="box gallery-box">
+          <img src="resources/imgs/img-1.jpg" alt="" />
+          <img src="resources/imgs/img-2.jpg" alt="" />
+          <img src="resources/imgs/img-3.jpg" alt="" />
+          <img src="resources/imgs/img-4.jpg" alt="" />
+          <!-- <img src="resources/imgs/img-5.jpg" alt="" /> -->
+          <!-- <img src="resources/imgs/img-6.jpeg" alt="" /> -->
+        </div>
+      </div>
+      <p>Copy Right &copy; 2024</p>
     </div>
   </body>
 </html>

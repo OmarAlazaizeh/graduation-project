@@ -24,13 +24,6 @@
   box-sizing: border-box;
 }
 
-/* 
-  fonts
-
-  font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-*/
-
 html {
   scroll-behavior: smooth;
 }
@@ -157,17 +150,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    .content {
-      p {
-        color: white;
-        text-align: center;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        font-size: 13px;
-        font-weight: bold;
-      }
-    }
   }
 }
 .landing::before {
@@ -198,10 +180,12 @@ header {
         overflow: hidden;
         transition: transform var(--main-transition),
           box-shadow var(--main-transition);
+        text-align: center;
 
         img {
-          width: 100%;
+          /* width: 100%; */
           max-width: 100%;
+          height: 263px;
         }
 
         .text {
@@ -210,6 +194,8 @@ header {
           h3 {
             margin: 1em 0;
             color: var(--secondary-color);
+            /* font-family: var(--rajdhani); */
+            font-size: 1.5rem;
           }
           p {
             line-height: 1.5;
@@ -454,6 +440,8 @@ header {
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
+  min-height: calc(100vb - 73.55px);
+  margin-top: 73.55px;
 
   .content {
     text-align: center;
@@ -478,7 +466,7 @@ header {
     /* background-image: url(../imgs/discount-background1.jpg); */
     /* background-size: cover; */
     /* color: white; */
-    flex-basis: 50%;
+    flex-basis: 40%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -511,14 +499,14 @@ header {
     top: 0;
     left: 0;
     background-color: black;
-    opacity: var(--main-opacity);
+    opacity: 0.7;
   }
 
   .form {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-basis: 50%;
+    flex-basis: 60%;
 
     form {
       text-align: left;
@@ -527,7 +515,7 @@ header {
     label {
       /* text-align: left; */
       > span {
-        color: red;
+        /* color: red; */
       }
     }
 
@@ -554,11 +542,11 @@ header {
       display: block;
       border: none;
       width: 100%;
-      padding: 15px;
+      /* padding: 15px; */
       background-color: var(--secondary-color);
       color: white;
       font-size: 20px;
-      font-weight: bold;
+      /* font-weight: bold; */
       cursor: pointer;
       transition: var(--main-transition);
     }
