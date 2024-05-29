@@ -38,7 +38,7 @@ Edit 'request a discount' to 'get your quote'.
 Create storage options link and three pages:  (like easy storage)
 1. personal storage
 2. busniess storage
-3. ???
+3. on demand storage
 =========================================================
 =========================================================
 Create Whatsapp button in all pages
@@ -66,5 +66,11 @@ fix media query in all pages
 =========================================================
 =========================================================
 Edit form in quote page 
+=========================================================
+=========================================================
+add get a quote button to the storage opetion pages: 
+1. personal storage
+2. busniess storage
+3. on demand storage
 =========================================================
 =========================================================
